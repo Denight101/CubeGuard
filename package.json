@@ -1,0 +1,9 @@
+{
+  "name": "cubeguard-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "Six-check local CONNECT proxy prototype",
+  "scripts": {"start": "node cube.js", "test": "node --test test.js"},
+  "engines": {"node": ">=22"}
+}

@@ -1,0 +1,15 @@
+{
+  "mode": "review",
+  "listenPort": 8787,
+  "allowedDomains": ["example.com", "*.example.com"],
+  "blockedDomains": [],
+  "allowedPorts": [443],
+  "maxConcurrent": 16,
+  "maxConnectionsPerMinute": 60,
+  "maxSessionSeconds": 300,
+  "idleTimeoutSeconds": 30,
+  "maxBytesPerSession": 52428800,
+  "maxHeaderBytes": 8192,
+  "maxAuditBytes": 5242880,
+  "windowsBlockedIPs": []
+}
